@@ -1,91 +1,77 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Facto 文档",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#000000",
+    "light": "#cccccc",
+    "dark": "#fc1c46",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#fc1c46",
+      "to": "#fc1c46"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "意见反馈",
+      "url": "mailto:hi@facto.hk"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "技术支持",
+    "url": "https://work.weixin.qq.com/kfid/kfce557cf5d45a3bd53"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Facto 官网",
+      "icon": "house-blank",
+      "url": "https://www.facto.com.cn"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "快速入门",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "introduction"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "自定义",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "customization/main-navigation",
+        "customization/header-settings",
+        "customization/top-bar",
+        "customization/site-logo",
+        "customization/sticky-header",
+        "customization/header-transparency",
+        "customization/site-icon",
+        "customization/changing-fonts"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "商城",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "shop/display",
+        "shop/number-of-products",
+        "shop/sidebar-setup",
+        "shop/product-image-size",
+        "shop/category-links",
+        "shop/product-hover-image",
+        "shop/sale-badge-color",
+        "shop/checkout",
+        "shop/next-previous-product",
+        "shop/related-product",
+        "shop/catalog-mode"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "linkedin": "https://linkedin.com/company/defactohk",
+    "x": "https://twitter.com/facto_hk",
+    "instagram": "https://www.instagram.com/facto.hk"
   }
 }
